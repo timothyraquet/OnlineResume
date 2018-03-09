@@ -9,12 +9,17 @@ html, body {
 /* navigation menu */
 header {
     background: black;
-    position: absolute;
     margin: 0 auto;
     width: 100%;
 }
 
+nav {
+    margin: 0;
+}
+
 nav ul {
+    margin-top: 0;
+    padding-top: 0;
     padding: 5px;
     list-style: none;
 }
@@ -36,4 +41,31 @@ nav ul a {
 
 nav ul a:hover {
     font-weight: bold;
+}
+
+main img {
+    padding-left: 10px;
+    padding-right: 10px;
+    float:left;
+}
+
+main section {
+}
+
+main section h1 {
+    font-weight: bold;
+}
+
+footer {
+    position: fixed;
+    background: black;
+    color: white;
+    margin: 0 auto;
+    width: 100%;
+    padding: 5px;
+    padding-left: 10px;
+    bottom: 0;
+    font-family: Verdana;
+	font-style: normal;
+	font-variant: normal;
 }
